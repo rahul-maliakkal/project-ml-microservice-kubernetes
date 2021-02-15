@@ -4,6 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
+docker login
 docker build -t django-app:v0 .
 
 # Step 2: 
